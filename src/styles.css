@@ -34,6 +34,9 @@ n .grid-3-columns-with-first-narrow {
   height: 185px;
   aspect-ratio: 1/1;
 }
+.youtube-embeds {
+  margin: 30px;
+}
 
 .images {
   width: 100%;
@@ -242,7 +245,7 @@ footer a {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
-  sections {
+  section {
     padding: 30px;
   }
   .card-header img {
