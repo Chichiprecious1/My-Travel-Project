@@ -13,6 +13,7 @@ body {
 
 .grid {
   display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
 .img-responsive {
@@ -35,7 +36,7 @@ n .grid-3-columns-with-first-narrow {
   aspect-ratio: 1/1;
 }
 .youtube-embeds {
-  margin: 30px;
+  margin-right: 100px;
 }
 
 .images {
