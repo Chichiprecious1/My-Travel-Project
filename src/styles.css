@@ -20,6 +20,12 @@ body {
   max-width: 100%;
   display: block;
 }
+
+.scrollbar {
+  width: 400px;
+  height: 250px;
+  overflow: auto;
+}
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
@@ -241,6 +247,11 @@ footer a {
     margin-left: 10px;
     width: 370px;
     height: 290px;
+  }
+  .scrollbar {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
   }
   .grid {
     grid-template-columns: 1fr;
